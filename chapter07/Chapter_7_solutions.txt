@@ -30,6 +30,9 @@ if p < r
     Quick Sort A[] p and q-1
     Quick Sort A[] q+1 and r
 
+  Solution to Q 7.1-1
+*******************************************************************************
+
   i pj                         r
     13 19 9 5 12 8 7 4 21 2 6 11
   i p  j                       r
@@ -56,3 +59,11 @@ if p < r
     9 5 8 7 4 2 6 12 21 13 19 11  /* The for loop terminates as j is now equal to r*/
 
     9 5 8 7 4 2 6 11 21 13 19 12   /* Exchanging A[i+1] and A[r]. At this stage A[r] has been placed in its correct sorted position */
+
+    ******************************************************************************************************************************
+
+    Solution to Q 7.1.2
+
+    J will be equal to r in case all the elements are identical
+    Count the number of instances A[j] == A[r]
+    If it is equal to r then return   (i+1 / 2). This gives the middle index position of the array
